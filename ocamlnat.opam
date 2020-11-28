@@ -1,0 +1,17 @@
+opam-version: "2.0"
+maintainer:   "mr_1993@hotmail.co.uk"
+authors:      "Matthew Ryan"
+homepage:     "https://github.com/mrmr1993/ocamlnat"
+bug-reports:  "https://github.com/mrmr1993/ocamlnat/issues"
+dev-repo: "git+https://github.com/mrmr1993/ocamlnat.git"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "ocaml" {>= "4.07.1" & < "4.08"}
+  "dune" {>= "2.0"}
+]
+synopsis:
+  "OCaml compiler's native toplevel"
+description:
+  "The OCaml compiler's native toplevel, packaged to be installable as a standalone binary"

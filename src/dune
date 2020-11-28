@@ -1,0 +1,4 @@
+(library
+ (name ocamlnat_lib)
+ (public_name ocamlnat.lib)
+ (libraries compiler-libs))

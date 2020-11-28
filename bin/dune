@@ -1,0 +1,4 @@
+(executable
+ (name ocamlnat)
+ (public_name ocamlnat)
+ (libraries ocamlnat_lib))
