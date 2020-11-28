@@ -1,0 +1,6 @@
+(library
+ (name ocamlnat_lib_408)
+ (public_name ocamlnat.lib.408)
+ (libraries compiler-libs compiler-libs.optcomp)
+ (enabled_if
+  (and (>= %{ocaml_version} 4.08) (< %{ocaml_version} 4.09))))
