@@ -248,7 +248,7 @@ let load_lambda ppf ~module_ident ~required_globals lam size =
 let pr_item =
   Printtyp.print_items
     (fun env -> function
-      | Sig_value(id, {val_kind = Val_reg; val_type}) ->
+      | Sig_value(id, {val_kind = Val_reg; val_type; _}) ->
           Some (outval_of_value env (toplevel_value id) val_type)
       | _ -> None
     )
