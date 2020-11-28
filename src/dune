@@ -4,4 +4,5 @@
  (libraries
   (select ocamlnat_lib.ml from
    (ocamlnat.lib.407 -> ocamlnat_lib.407.ml)
-   (ocamlnat.lib.408 -> ocamlnat_lib.408.ml))))
+   (ocamlnat.lib.408 -> ocamlnat_lib.408.ml)
+   (ocamlnat.lib.409 -> ocamlnat_lib.409.ml))))
