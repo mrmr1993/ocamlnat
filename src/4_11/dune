@@ -1,0 +1,6 @@
+(library
+ (name ocamlnat_lib_411)
+ (public_name ocamlnat.lib.411)
+ (libraries compiler-libs compiler-libs.optcomp dynlink)
+ (enabled_if
+  (and (>= %{ocaml_version} 4.11) (< %{ocaml_version} 4.12))))
