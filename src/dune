@@ -1,4 +1,6 @@
 (library
  (name ocamlnat_lib)
  (public_name ocamlnat.lib)
- (libraries compiler-libs compiler-libs.optcomp))
+ (libraries
+  (select ocamlnat_lib.ml from
+   (ocamlnat.lib.407 -> ocamlnat_lib.407.ml))))
